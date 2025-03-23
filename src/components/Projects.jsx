@@ -39,11 +39,11 @@ function Projects({darkmode}) {
             </div>
           </div>
           <div id='animation' className='hover:scale-105 transition-all rounded-2xl flex gap-4 justify-center items-center flex-col text-white border border-gray-500 p-4 sm:p-10'>
-            <img id='animation' src="./simon.png" alt=""  className='w-[300px] rounded-xl  '/>
-            <h2 id='animation' className={ `${darkmode ?  "text-white ": ""} text-black text-2xl font-bold`}>Simon Game</h2>
+            <img id='animation' src="./DALL·E 2025-03-23 23.56.28 - A futuristic AI chatbot interface designed for a portfolio website. The chatbot appears as a sleek, glowing robotic assistant with a friendly digital .webp" alt=""  className='w-[300px] rounded-xl  '/>
+            <h2 id='animation' className={ `${darkmode ?  "text-white ": ""} text-black text-2xl font-bold`}>Ai ChatBot</h2>
             <div className='flex justify-center items-center sm:gap-24 gap-4'>
-            <a id='animation'  className='w-1/2' href="https://sameet728.github.io/SimonGame/" target='_blank'> <Button className={`${darkmode ? "bg-white":""}`}><span className='text-2xl'>👁️</span></Button></a> 
-            <a id='animation' className='w-1/2'  href="https://github.com/Sameet728/SimonGame" target='_blank'><FaGithub className={`${darkmode ? "text-white" :"text-black "}  text-4xl cursor-pointer hover:scale-125 transition-all`} /></a> 
+            <a id='animation'  className='w-1/2' href="https://sameet-ai-updated.vercel.app/" target='_blank'> <Button className={`${darkmode ? "bg-white":""}`}><span className='text-2xl'>👁️</span></Button></a> 
+            <a id='animation' className='w-1/2'  href="https://github.com/Sameet728/SameetAi_Updated" target='_blank'><FaGithub className={`${darkmode ? "text-white" :"text-black "}  text-4xl cursor-pointer hover:scale-125 transition-all`} /></a> 
               
             </div>
           </div>
