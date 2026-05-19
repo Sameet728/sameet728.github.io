@@ -75,6 +75,13 @@ function Navbar({ loading, darkmode, setDarkmode }) {
               >
                 <a href="#contact">Contact</a>
               </li>
+                            <li
+                className={`hover:underline hover:underline-offset-8 ${
+                  darkmode ? "hover:text-teal-400" : "hover:text-blue-500"
+                } hover:scale-110 transition-all`}
+              >
+                <a href="https://sameet728.github.io/Java/">Java</a>
+              </li>
               <li
                 className={`hover:underline hover:underline-offset-8 ${
                   darkmode ? "hover:text-teal-400" : "hover:text-blue-500"
